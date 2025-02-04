@@ -42,6 +42,51 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
+/* mission, vision and core values section */
+.mission-vision-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.mission-vision-container h2 {
+  font-size: 2.5rem;
+  color: #002366;
+  margin-bottom: 1rem;
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.mission-vision-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mission-vision-card:hover {
+  transform: translateY(-10px);
+}
+
+.mission-vision-card h3 {
+  color: #c8102e;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.mission-vision-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+/* end */
 
 /* clear fix */
 .grid:after {
