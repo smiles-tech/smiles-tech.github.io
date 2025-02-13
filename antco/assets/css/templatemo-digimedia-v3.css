@@ -815,6 +815,9 @@ header
   }
 }
 
+/* carousel */
+
+
 /* 
 ---------------------------------------------
 preloader
@@ -964,6 +967,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
+  text-wrap-style: calc();
   color: #c8102e;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -974,7 +978,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #2a2a2a;
+  color: #002366;
   margin-bottom: 20px;
 }
 
@@ -1270,7 +1274,7 @@ Services Style
   left: 0;
   top: 0px;
   width: 786px;
-  height: 1000px;
+  height: 1080px;
   z-index: 0;
 }
 
