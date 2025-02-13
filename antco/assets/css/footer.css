@@ -83,6 +83,9 @@ h4 {
         flex-direction: column;
         text-align: center;
     }
+    .footer-address p {
+        text-align: center;
+    }
 
     .footer-nav,
     .footer-address,
